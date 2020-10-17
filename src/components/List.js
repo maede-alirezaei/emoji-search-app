@@ -6,7 +6,7 @@ import Row from "./Row";
 
 const List = (props) => {
   const list = props.data.map((value, index) => {
-    return <Row title={value} />;
+    return <Row key={index} symbol={value.symbol} title={value.title} />;
   });
 
   return <div>{list}</div>;
