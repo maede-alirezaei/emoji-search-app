@@ -15,6 +15,7 @@ const Body = (props) => {
         value.keywords.includes(searchText) ||
         value.symbol.includes(searchText)
     );
+
     // const result = data.filter((value) => {
     //   if (value.title.includes(searchText)) {
     //     return true;
