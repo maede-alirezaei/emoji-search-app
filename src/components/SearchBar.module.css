@@ -1,0 +1,8 @@
+.container {
+  width: 100%;
+  margin: 0.5vw;
+  padding: 0.5vw;
+  font-size: 2vw;
+  color: orange;
+  border-width: 0.5vw;
+}
